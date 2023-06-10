@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PositionAddressContract on setPositionAddress from userPosition 1`] = `
+[
+  {
+    "$seq": 1,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{5DA6DE96800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B30001DC8F849F1A1B451DD1D5ED0C497DF2EB583D7FC37EFC48BD5D38F1B4073EB72_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQBszH7661k5js1wBjx40qtdAlqatbmjIPChxm9Q18Iit2AT",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 10641n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "type": "empty",
+            },
+            "bounce": false,
+            "from": "kQBszH7661k5js1wBjx40qtdAlqatbmjIPChxm9Q18Iit2AT",
+            "to": "kQA8J7zdze7xzxWC0UEFLI_ebJedZgQbQuay8b9oAkTSWQkO",
+            "type": "internal",
+            "value": 988359000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionAddressContract should deploy correctly 1`] = `
+[
+  {
+    "$seq": 0,
+    "events": [
+      {
+        "$type": "deploy",
+      },
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{946A98B60000000000000000}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQBszH7661k5js1wBjx40qtdAlqatbmjIPChxm9Q18Iit2AT",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 10283n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{AFF90F570000000000000000}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQBszH7661k5js1wBjx40qtdAlqatbmjIPChxm9Q18Iit2AT",
+            "to": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+            "type": "internal",
+            "value": 988521000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;

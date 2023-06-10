@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PositionsManagerContract deploys new user position contract and forward addCollateral  1`] = `
+[
+  {
+    "$seq": 2,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{DDED1FE8800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 101000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 20598n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{DDED1FE8800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+            "type": "internal",
+            "value": 100957177000n,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "$seq": 3,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{0D74C595800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B3_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 98601000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 19082n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{5DA6DE96800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B300361BE451B6824585938DFC2A5E1DE2A5724A7AD79D129C9483A0F7ED6EB2FA20A_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQC2qUjTfkzfkMPW5Au6YoHQK7b9rcBxR0jTyKrb7S4I4Ft4",
+            "type": "internal",
+            "value": 67780000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract newPositionId request from userPosition, increase lastPositionId and deploy positionAddress contract  1`] = `
+[
+  {
+    "$seq": 4,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{0D74C595800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B3_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBqJ1A2wQ5MkOBlhdTr7ML850tmbmDecFDAEvNUwHvm0sGh",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 19082n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{5DA6DE96800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B3001A89D40DB0439324381961753AFB30BF39D2D99B98379C143004BCD5301EF9B4A_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQC-NgxX5720snjxjSEdhWT_ciy2EHH6fjj5JEOZOo2tnCx-",
+            "type": "internal",
+            "value": 969179000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract on decreaseTotalStable from userPosition forwards message to the gateKeeper 1`] = `
+[
+  {
+    "$seq": 10,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{ED81304A800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD0000000000000000003_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 12493n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{ED81304A800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD0000000000000000003_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+            "type": "internal",
+            "value": 98473000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract on doWithdrawCollateral from userPosition forwards message to the gateKeeper 1`] = `
+[
+  {
+    "$seq": 11,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{C3CD33BF800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 12589n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{C3CD33BF800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+            "type": "internal",
+            "value": 98537000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract on increaseTotalStable from userPosition forwards message to the gateKeeper 1`] = `
+[
+  {
+    "$seq": 7,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{96096519800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 12096n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{96096519800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+            "type": "internal",
+            "value": 986441000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract on repayStable from gateKeeper forwards message to the userPosition 1`] = `
+[
+  {
+    "$seq": 8,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{BEF31E07800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 19957n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{BEF31E07800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+            "type": "internal",
+            "value": 978352000n,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "$seq": 9,
+    "events": [
+      {
+        "$type": "received-bounced",
+        "message": {
+          "body": {
+            "type": "empty",
+          },
+          "bounce": false,
+          "from": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 971617000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 6330n,
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract on withdrawStable from gateKeeper forwards message to the userPosition 1`] = `
+[
+  {
+    "$seq": 5,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{6C3989BB800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQBhDJZIy0_RS_IdyGG5GxdsC8eWb15DS9b3IL2p2-b0cUi8",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 19759n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{6C3989BB800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+            "to": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+            "type": "internal",
+            "value": 978550000n,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "$seq": 6,
+    "events": [
+      {
+        "$type": "received-bounced",
+        "message": {
+          "body": {
+            "type": "empty",
+          },
+          "bounce": false,
+          "from": "kQDYb5FG2gkWFk438Kl4d4qVySnrXnRKclIOg9-1usvogjgc",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 961128000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 6330n,
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract revert depositCollateral if sent not from gateKeeper 1`] = `
+[
+  {
+    "$seq": 1,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{DDED1FE8800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD000000000020000000200000002000000020000000200000002935F1B401_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 101000000000n,
+        },
+      },
+      {
+        "$type": "failed",
+        "errorCode": 5576,
+        "errorMessage": "not from gateKeeper",
+      },
+      {
+        "$type": "sent-bounced",
+        "message": {
+          "body": {
+            "type": "empty",
+          },
+          "bounce": false,
+          "from": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "to": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "type": "internal",
+          "value": 100993705000n,
+        },
+      },
+    ],
+  },
+]
+`;
+
+exports[`PositionsManagerContract should deploy correctly 1`] = `
+[
+  {
+    "$seq": 0,
+    "events": [
+      {
+        "$type": "deploy",
+      },
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{23071186801075E834DF4F15E107E94B1EDF44C910774A333E3C6B7B2F37E39B16FED191AD9001843259232D3F452FC8772186E46C5DB02F1E59BD790D2F5BDC82F6A76F9BD1C6_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQCp5x7l3bdR_zWq7HtZnJJ1knQDtBfqVWKJnevS378nm5-N",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 9256n,
+      },
+    ],
+  },
+]
+`;

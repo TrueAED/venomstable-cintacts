@@ -1,0 +1,21 @@
+{
+    "projects": [
+        {
+            "name": "stableton",
+            "path": "./sources/gateKeeper.tact",
+            "output": "./sources/output",
+            "options": { "debug": true }
+        },
+        {
+            "name": "stableton",
+            "path": "./sources/positionsManager.tact",
+            "output": "./sources/output"
+        },
+        {
+            "name": "stableton",
+            "path": "./sources/stablecoin.tact",
+            "output": "./sources/output",
+            "options": { "debug": true }
+        }
+    ]
+}

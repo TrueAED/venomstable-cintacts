@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GateKeeperContract collectFees increases debtRate 1`] = `[]`;
+
+exports[`GateKeeperContract on deposit collateral should forward message to positionsManager and have msg.amount left on gatekeeper balance 1`] = `
+[
+  {
+    "$seq": 3,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{C46CCBB6800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQA8J7zdze7xzxWC0UEFLI_ebJedZgQbQuay8b9oAkTSWQkO",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 101000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 18002n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{92C1E2A5800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD001_}
+ x{0000000000000000000000000000000000000000000000000000000023C346000000000000000000000000000000000000000000000000000000003A3529449C40000000000000000000000000000000000000000000000000000000000005209_}
+  x{000000000000000000000000000000000000000000000000000000001DCD6500000000000000000000000000000000000000000000000000000000001904FF09927BC86AAA_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+            "type": "internal",
+            "value": 977036000n,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "$seq": 4,
+    "events": [
+      {
+        "$type": "received-bounced",
+        "message": {
+          "body": {
+            "type": "empty",
+          },
+          "bounce": false,
+          "from": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 976036000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 9951n,
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract on increase total stable should add total stables count 1`] = `
+[
+  {
+    "$seq": 7,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{96096519800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 15043n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "type": "empty",
+            },
+            "bounce": false,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQA8J7zdze7xzxWC0UEFLI_ebJedZgQbQuay8b9oAkTSWQkO",
+            "type": "internal",
+            "value": 983957000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract on pool settings msg should store new settings  1`] = `
+[
+  {
+    "$seq": 1,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{5C8C5E0B0000000000000000000000000000000000000000000000000000000023C346000000000000000000000000000000000000000000000000000000003A3529449C40000000000000000000000000000000000000000000000000000000000005209_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 16814n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "text": "pool settings updated",
+              "type": "text",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+            "type": "internal",
+            "value": 981886000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract on repayStablecoinUserMessage should send enhanced message to positionsAddressManager 1`] = `
+[
+  {
+    "$seq": 8,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{DE1FA942800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQA8J7zdze7xzxWC0UEFLI_ebJedZgQbQuay8b9oAkTSWQkO",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 17533n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{5038B327800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}
+ x{0000000000000000000000000000000000000000000000000000000023C346000000000000000000000000000000000000000000000000000000003A3529449C40000000000000000000000000000000000000000000000000000000000005209_}
+  x{000000000000000000000000000000000000000000000000000000001DCD6500000000000000000000000000000000000000000000000000000000001904FF09927BC86AAA_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+            "type": "internal",
+            "value": 979483000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract on withdrawstablecoins should forward message to positionsManager with current settings and price 1`] = `
+[
+  {
+    "$seq": 5,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{705FE53E800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B2A2E90EDD001_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQA8J7zdze7xzxWC0UEFLI_ebJedZgQbQuay8b9oAkTSWQkO",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 17448n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "cell": "x{5038B327800784F79BB9BDDE39E2B05A2820A591FBCD92F3ACC083685CD65E37ED00489A4B20000002E90EDD001_}
+ x{0000000000000000000000000000000000000000000000000000000023C346000000000000000000000000000000000000000000000000000000003A3529449C40000000000000000000000000000000000000000000000000000000000005209_}
+  x{000000000000000000000000000000000000000000000000000000001DCD6500000000000000000000000000000000000000000000000000000000001904FF09927BC86AAA_}",
+              "type": "cell",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+            "type": "internal",
+            "value": 979568000n,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    "$seq": 6,
+    "events": [
+      {
+        "$type": "received-bounced",
+        "message": {
+          "body": {
+            "type": "empty",
+          },
+          "bounce": false,
+          "from": "kQCmw0-Nvnap6F8s-77yXEYbduFtd_bSsmDZu6eYT4Oy-Aqh",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 978568000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 9951n,
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract should deploy correctly 1`] = `
+[
+  {
+    "$seq": 0,
+    "events": [
+      {
+        "$type": "deploy",
+      },
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{5A2ADFF2801075E834DF4F15E107E94B1EDF44C910774A333E3C6B7B2F37E39B16FED191AD90029B0D3E36F9DAA7A17CB3EEFBC971186DDB85B5DFDB4AC98366EE9E613E0ECBE2_}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 17621n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "text": "deps set",
+              "type": "text",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+            "type": "internal",
+            "value": 981183000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
+
+exports[`GateKeeperContract should set ton price 1`] = `
+[
+  {
+    "$seq": 2,
+    "events": [
+      {
+        "$type": "received",
+        "message": {
+          "body": {
+            "cell": "x{6EB2483F4BEBC2000}",
+            "type": "cell",
+          },
+          "bounce": true,
+          "from": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+          "to": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+          "type": "internal",
+          "value": 1000000000n,
+        },
+      },
+      {
+        "$type": "processed",
+        "gasUsed": 16700n,
+      },
+      {
+        "$type": "sent",
+        "messages": [
+          {
+            "body": {
+              "text": "ton price updated",
+              "type": "text",
+            },
+            "bounce": true,
+            "from": "kQAr7kgNKsWHlPEo2YsY1G2ikFMOl5tJrhQ5LS3DXz9CLEJL",
+            "to": "kQAI-3FJVc_ywSuY4vq0bYrzR7S4Och4y7bTU_i5yLOB3A6P",
+            "type": "internal",
+            "value": 982032000n,
+          },
+        ],
+      },
+    ],
+  },
+]
+`;
